@@ -1,0 +1,110 @@
+h1{
+    color:purple;
+    font-size: 30px;
+    text-transform: uppercase;
+ }   
+
+ p{
+    font-size: 20px;
+    color: rgb(105, 105, 54);
+ }
+
+ h2{
+     font-size: 30px;
+     color: #812ad8;
+     text-transform: uppercase;
+ }
+ #detail h3{
+     text-align: center;
+     font-size:30px ;
+ }
+
+ a{
+     text-decoration: unset;
+     color: rgb(172, 31, 111);
+     font-size: 18px;
+ } 
+body{
+    background-image: url('../img/back1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: auto;
+    color: rgb(112, 63, 63);
+}
+#information{
+    color: rgb(233, 128, 207) !important;
+}
+#banner h2{
+  text-align: center;
+  text-decoration: underline;
+}  
+#header {
+    background: rgb(207, 131, 55);
+    position: fixed;
+    text-align: center;
+    z-index: 100; 
+    margin: 0 auto;
+    display: block;
+    top: auto;
+    width: 320px;
+}
+a:hover{
+    background: rgb(23, 64, 70);
+}
+p:hover{
+    background: rgb(194, 121, 145);
+}
+a:active{
+    color: rgb(53, 35, 3);
+}
+#about-section, #banner h2, #navigation, #detail h3, #contact-details, #banner, .topnav, #detail, #detail h2, #linking,#blog-list,#blogs,#bloglist, #blog-list h2,#blogs h2,#bloglist h2{
+  width: 90%;
+  border: 19px solid rgb(154, 154, 250);
+  padding: 25px;
+  margin: 20px;  
+  background:rgb(185, 108, 108);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(204, 83, 83);
+  text-align: center;
+}  
+#blog-list ol li,#blogs ol li,#bloglist ol li{
+    text-align: left;
+}
+#about-section h2{
+    text-align: center;
+}
+nav{
+    max-width: 100%;
+    background: rgb(109, 95, 95);
+    margin: 0px auto;
+    padding: 15px;
+    position: relative;;
+    top: 20px;
+}
+
+nav ul{
+    white-space: nowrap;
+}
+
+nav li{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+
+}
+#detail{
+    background-image: url('../img/back.jpg');
+}
+#blog-list{
+    background-image: url('../img/football/football123.jpg'); 
+    background-size: 100% 100%;
+}
+#bloglist{
+    background-image: url('../img/cricket/cricket123.jpg');
+    background-size: 100% 100%;
+}
+#blogs{
+    background-image: url('../img/basketball/basketball123.jpg');
+    background-size: 100% 100%;
+}
+
